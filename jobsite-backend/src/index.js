@@ -37,7 +37,7 @@ app.post("/api/submitForm", upload.single("resume"), (req, res) => {
 
   const mailOptions = {
     from: "mahajansaurav03@gmail.com",
-    to: "chaudharirahul2422@gmail.com",
+    to: "mahajansaurav02@gmail.com",
     subject: "New Job Application",
     html: `
       <h2>New Job Application</h2>
